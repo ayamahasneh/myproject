@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D4DBDD;    
+  }
+header {
+    text-align: center;
+    padding: 20px;
+    color: #800080;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+  }
+.container {
+    margin: 10px 10px 10px 10px;
+   /*will wrap to the next line if there sis not enough space on the current line. */
+    font-size: 14px;
+  }
+.section{
+    position: relative;
+    height: 40px;
+    float: right;
+    border: 1px solid black;
+    margin: 10px ; 
+    padding: 30px 0px 0px 0px;
+    background: lightgray;
+    transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+.section:hover {
+    height: 100px;}
+
+.title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+
+.fl>.title{
+    background: lightblue;
+
+}
+.wd>.title{
+    background: lightcoral;
+}
+.el>.title{
+    background: lightgreen;
+}
+
+
+
+    .fl,.wd,.el{overflow: auto}    
+
+footer{
+    bottom: 0;
+    left: o;
+    position: fixed;
+    text-align: center;
+    background-color: #800080;
+    width: 100%;
+}
+
+.fab fa-facebook{
+    color:#fff;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+  }
+  
+  .social-media i {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #fff; /* White color for the icons */
+  }
+
+
+@media (min-width: 992px)
+{
+.section{
+    width: 33.3%;
+
+}
+.container{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  }
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.fl,.wd{
+    margin: 5px;
+
+    float: right;
+    width: 48%;}
+
+.el{
+    margin: 5px;
+    float: right;
+    width: 97.5%;
+}
+}
+
+
+@media  (max-width: 767px){
+   .section{
+       display: inline;
+        margin: 5px;
+       width: 98%;
+   }
+  }
+
+
+/*
+https://www.youtube.com/watch?v=qMck70tLDuo&ab_channel=DennisIvy*/
