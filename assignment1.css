@@ -13,7 +13,7 @@ header {
   }
 .container {
     margin: 10px 10px 10px 10px;
-   /*will wrap to the next line if there sis not enough space on the current line. */
+   /*will wrap to the next line if there is not enough space on the current line. */
     font-size: 14px;
   }
 .section{
