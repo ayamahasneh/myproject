@@ -27,7 +27,7 @@ header {
     transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
 }
 .section:hover {
-    height: 100px;}
+    height: 200px;}
 
 .title{
     position: absolute;
@@ -52,7 +52,15 @@ header {
 
 
 
-    .fl,.wd,.el{overflow: auto}    
+    .section{overflow: auto}    
+a{
+  color: #800080;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-decoration: none;
+
+}
 
 footer{
     bottom: 0;
